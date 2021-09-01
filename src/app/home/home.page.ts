@@ -11,7 +11,7 @@ export class HomePage implements OnInit {
   constructor() {}
 
   ngOnInit() {
-    StatusBar.setStyle({style: Style.Dark});
+    StatusBar.setStyle({style: Style.Light});
     // keyboard will resize webview when the following line is commented
     StatusBar.setOverlaysWebView({overlay: true});
   }
